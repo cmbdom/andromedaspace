@@ -40,6 +40,16 @@ textarea {
 .footer a {
 	color: #999
 }
+@media only screen and (max-width: 992px) {
+    .footer {
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .footer, .text-right {
+        text-align: center;
+    }
+}
 .padding-carousel {
 	padding: 0px 0;
 }
